@@ -215,3 +215,29 @@ body {
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 670px) {
+  .navbar {
+    height: auto;
+    padding: 20px 20px;
+    flex-direction: column;
+  }
+
+  .navbar .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navbar a {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+}
